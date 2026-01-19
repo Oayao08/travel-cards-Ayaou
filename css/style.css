@@ -1,5 +1,4 @@
 body {
-    background-color: aliceblue;
     font-family: 'Montserrat', Helvetica, sans-serif;
 }
 
@@ -105,5 +104,30 @@ a {
 .img2 {
     justify-content: center;
     align-items: center;
+}
+
+
+
+/*CARD 4*/
+
+.container4 {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar4 {
+    display: flex;
+    flex-direction: row;
+    gap: 300px;
+}
+.parrafo2 {
+    font-family: Gilroy;
+    font-weight: 700;
+    font-size: 22.77px;
+    line-height: 144%;
+    letter-spacing: 0%;
+
 }
 
