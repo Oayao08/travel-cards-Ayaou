@@ -80,6 +80,7 @@ a {
     border-radius: 50px; /*imagen redonda*/
     width: 90px;
     height: 90px;
+    border: 2px solid #0882E0;
 
 }
 
