@@ -95,11 +95,16 @@ a {
 /*CARD 2*/
 
 .container2 {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     width: 1440px;
     height: 1140px;
-    display: block;
+    background-size: cover;
+    background-position: center;
+    color: black;
+    text-align: center;
 }
 
 .img2 {
