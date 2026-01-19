@@ -1,0 +1,92 @@
+body {
+    background-color: aliceblue;
+    font-family: 'Montserrat', Helvetica, sans-serif;
+}
+
+.navbar {
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: #252525CC;
+    color: #ffffff;
+}
+
+a {
+    list-style: none;
+    text-decoration: none;
+    color: #020202;
+}
+
+
+.container .article {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 70px;
+
+}
+
+.prototip img {
+    border-radius: 20px;
+    width: 300px;
+    height: 250px;
+}
+
+.prototip {
+    border-color: black;
+
+}
+
+/*CARDS*/
+
+/*CARD 1*/
+.container {
+    justify-content: center; /*vertical*/
+    text-align: center; /*horizontal*/
+    align-items: center;
+    /*medidas de prototipo*/
+    width: 1440px;
+    height: 1140px; 
+}
+
+
+.title {
+    color: #FFFFFF;
+    top: 150px;
+    position: absolute;
+    left: 580px;
+}
+
+.title h1 {
+    font-family: Poppins;
+    font-weight: 500;
+    font-size: 60.81px;
+    line-height: 40.81px;
+    letter-spacing: -0.94px;
+    text-align: center;
+}
+
+.title h2 {
+    font-family: Poppins; /*fuente + medidas*/
+    font-weight: 400;
+    font-size: 30.34px;
+    line-height: 18.84px;
+    letter-spacing: 0px;
+    text-align: center;
+
+}
+
+.logo img {
+    border-radius: 50px; /*imagen redonda*/
+    width: 90px;
+    height: 90px;
+
+}
+
+.logo {
+    position: absolute;
+    top: 320px;
+    left: 700px;  
+}
+
