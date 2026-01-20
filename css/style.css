@@ -269,27 +269,35 @@ footer {
 
 /*contenedor de cuadro1 y cuadro2*/
 .content4 {
-
+    margin: 20px;
+    display: flex;
+    justify-content: left; 
 }
 
 /*texto from y 6h 45m*/
 .cuadro1 {
-
+    margin: 20px;
+    display: flex;
+    justify-content: left; 
 }
 
 /*distance y 12 km*/
 .cuadro2 {
-
+    margin: 20px;
+    display: flex;
 }
 
 
 /*Decoración y detalles*/
 .button4 button {
-
-}
-
-/*Posicionamiento botton*/
-
-.button4 {
+    width: 100px;
+    height: 50px;
+    background: #fff;
+    color: #00AEFF;
+    border: 2px solid #00AEFF;
+    width: 96.77540774491945;
+    height: 40.7974752904488;
+    opacity: 1;
+    border-radius: 29.41px;
 
 }
