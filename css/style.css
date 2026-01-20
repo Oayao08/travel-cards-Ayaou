@@ -202,11 +202,22 @@ a {
 
 }
 
-.button3 {
+.button3 button {
     align-items: right;
-    justify-center: right;
+    justify-content: right;
+    background: #00000080; /*fondo*/
+    color: #fff; /*letra color*/
+    border: 2px solid #fff; /*borde color*/
+    width: 100px; /*tamaño*/
+    height: 50px;
+    border-radius: 20px; /*borde boton redondeados*/
 }
 
+.button3 div {
+    justify-content: right;
+    align-items: right;
+    
+}
 /*CARD 4*/
 
 .container4 {
