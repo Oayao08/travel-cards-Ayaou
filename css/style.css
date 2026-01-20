@@ -50,10 +50,10 @@ a {
     display: flex;
     flex-direction: column;
 
-    background-image: url(../images/)
+    background-image: url(../images/card1.jpg);
     background-size: cover;
     background-position: center;
-
+    color: #fff;
     box-shadow: 0px 3.17px 19.04px 0px #BDBDBD3B;
 }
 
@@ -61,8 +61,8 @@ a {
 .title h1 {
     /*medidas de h1 prototipo*/
     font-family: Poppins;
-    font-weight: 500;
-    font-size: 60.81px;
+    font-weight: 600;
+    font-size: 100.81px;
     line-height: 40.81px;
     letter-spacing: -0.94px;
 }
@@ -70,17 +70,17 @@ a {
 .title h2 {
     font-family: Poppins; /*fuente + medidas*/
     font-weight: 400;
-    font-size: 30.34px;
+    font-size: 60.34px;
     line-height: 18.84px;
     letter-spacing: 0px;
 }
 
 .logo img {
     border-radius: 50px; /*imagen redonda*/
-    width: 90px;
-    height: 90px;
+    width: 100px;
+    height: 100px;
     border: 2px solid #0882E0;
-
+    margin-top: 20px;
 }
 
 
