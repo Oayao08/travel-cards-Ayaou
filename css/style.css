@@ -88,6 +88,8 @@ a {
 /*CARD 2*/
 
 .container2 {
+    margin: 20px; /*Importante para que no se pegue a un borde*/
+    padding: 40px;
     justify-content:end; /*vertical*/
     text-align: left; 
     align-items: left; /*horizontal*/
@@ -146,6 +148,64 @@ a {
 }
 
 
+/*CARD 3*/
+
+.container3 {
+    margin: 20px;
+    padding: 40px;
+    justify-content:end; /*vertical*/
+    text-align: left; 
+    align-items: left; /*horizontal*/
+    /*medidas de prototipo*/
+    width: 1440px;
+    height: 1140px; 
+    display: flex;
+    flex-direction: column;
+    background-image: url(../images/background-card3.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    box-shadow: 0px 3.17px 19.04px 0px #BDBDBD3B;
+    font-family: Roboto;
+    box-shadow: 0px 3.17px 19.04px 0px #BDBDBD3B;
+
+}
+
+.title3 h1 {
+    /*medidas de h1 prototipo*/
+    font-family: 'Roboto';
+    font-weight: 600;
+    font-size: 100.81px;
+    line-height: 40.81px;
+    letter-spacing: -0.94px;
+}
+
+.title3 h2 {
+    font-family: 'Roboto'; /*fuente + medidas*/
+    font-weight: 400;
+    font-size: 60.34px;
+    line-height: 18.84px;
+    letter-spacing: 0px;
+}
+
+.punto {
+    color: #30D5C8;
+    height: 200px;
+    width: 200px;
+}
+
+.content p {
+    font-weight: 400;
+    font-size: 60.01px;
+    line-height: 100%;
+    letter-spacing: 3%;
+
+}
+
+.button3 {
+    align-items: right;
+    justify-center: right;
+}
 
 /*CARD 4*/
 
