@@ -38,8 +38,11 @@ a {
 }
 
 footer {
+    display: flex;
     align-items: center;
+    justify-content: center;
     background: #333;
+    color: #fff;
 }
 
 /*CARDS*/
@@ -299,5 +302,4 @@ footer {
     height: 40.7974752904488;
     opacity: 1;
     border-radius: 29.41px;
-
 }
