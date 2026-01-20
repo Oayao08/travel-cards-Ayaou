@@ -168,10 +168,7 @@ footer {
     background-position: center;
     color: #fff;
     box-shadow: 0px 3.17px 19.04px 0px #BDBDBD3B;
-    font-family: Roboto;
-    box-shadow: 0px 3.17px 19.04px 0px #BDBDBD3B;
-  overflow: hidden;
-
+    font-family: 'Roboto';
 }
 
 .title3 h1 {
@@ -228,48 +225,61 @@ footer {
 .container4 {
     margin: 20px;
     padding: 40px;
-    justify-content:end; /*vertical*/
+        flex-direction: column; /* columna */
+    justify-content: center; /* vertical */
+    align-items: center;     /* centrae horizontalmente */
     /*medidas de prototipo*/
     width: 1440px;
     height: 1140px; 
     display: flex;
-    flex-direction: column;
-    background-size: cover;
     background-position: center;
     color: #fff;
     box-shadow: 0px 3.17px 19.04px 0px #BDBDBD3B;
-    font-family: Roboto;
+    font-family: 'Roboto', Arial;
     color: #1A2B49;
 }
 
-.title3 h1 {
-    /*medidas de h1 prototipo*/
-    font-family: 'Roboto';
-    font-weight: 500;
-    font-size: 100.81px; /*original es 40.81px pero cambio para que se ajuste*/
-    line-height: 40.81px;
-    letter-spacing: -0.94px;
-}
-
-.title3 h2 {
-    font-family: 'Roboto'; /*fuente + medidas*/
-    font-weight: 400;
-    font-size: 60.34px;
-    line-height: 18.84px;
-    letter-spacing: 0px;
-}
-
-.punto {
-    color: #30D5C8;
-    height: 200px;
-    width: 200px;
-}
-
-.content p {
-    font-weight: 400;
-    font-size: 60.01px; /*original es 11.22px pero cambio para que se ajuste al prototipo*/
-    line-height: 100%;
-    letter-spacing: 3%;
+.navbar4 {
+    display: flex;
+    align-items: center;
 
 }
 
+.parrafo41 {
+
+}
+
+.parrafo42 {
+
+}
+
+.logo4 {
+
+}
+
+/*contenedor de cuadro1 y cuadro2*/
+.content4 {
+
+}
+
+/*texto from y 6h 45m*/
+.cuadro1 {
+
+}
+
+/*distance y 12 km*/
+.cuadro2 {
+
+}
+
+
+/*Decoración y detalles*/
+.button4 button {
+
+}
+
+/*Posicionamiento botton*/
+
+.button4 {
+
+}
