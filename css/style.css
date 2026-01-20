@@ -225,7 +225,7 @@ footer {
 .container4 {
     margin: 20px;
     padding: 40px;
-        flex-direction: column; /* columna */
+    flex-direction: column; /* columna */
     justify-content: center; /* vertical */
     align-items: center;     /* centrae horizontalmente */
     /*medidas de prototipo*/
@@ -242,19 +242,29 @@ footer {
 .navbar4 {
     display: flex;
     align-items: center;
-
+    gap: 200px;
 }
 
 .parrafo41 {
-
+    font-weight: 400;
+    font-size: 11.39px;
+    line-height: 144%;
+    letter-spacing: 0%;
+    color: #1A2B49;
 }
 
 .parrafo42 {
-
+    font-weight: 700;
+    font-size: 22.77px;
+    line-height: 144%;
+    letter-spacing: 0%;
+    color: #1A2B49;
 }
 
 .logo4 {
-
+    margin: 15px;
+    display: flex; /*flex*/
+    justify-content: flex-end; /*posicionarse derecha*/
 }
 
 /*contenedor de cuadro1 y cuadro2*/
